@@ -24,17 +24,17 @@ header h1 {
   /* Remove bullets */
   background-color: hsl(262, 42%, 49%);
   list-style: none;
+
 }
 
 .main-nav li {
   /* add border between elements, float the elements, center link content, width on links, set font color */
   background-color: hsl(262, 42%, 49%);
   float: left;
-  margin: auto;
   border-right: .3rem solid hsl(262, 49%, 38%);
   padding: .5rem 3rem;
-
   color: white;
+  
 }
 
 .main-nav li:last-of-type {
@@ -60,13 +60,14 @@ aside {
 
 aside ul {
   /*  clear both, set padding for full ul */
-  padding: 4rem;
+  padding: 2.5rem 1rem 5rem;
   clear: both;
 }
 
 aside li {
   /*  Set padding for individual li's*/
   padding: 1rem;
+  text-align: center;
 }
 
 aside a {
@@ -77,7 +78,7 @@ aside a {
 }
 
 .main-article {
-  /*  change background color, float it? */
+  /*  change background color, float left */
   float: left;
   width: 77%;
   background-color: hsl(218 ,3%, 90%);
@@ -86,15 +87,19 @@ aside a {
 
 .main-fig {
   /* Center the figure with margin: auto */
-
+  margin-left: 10%;
+  margin-right: 10%;
 
 }
 
 img.main-img {
-
+  padding: 1rem 2rem;
 }
 
 figcaption {
+  font-size: .9rem;
+  text-align: center;
+  padding: 1rem 2rem;
 }
 
 footer {
