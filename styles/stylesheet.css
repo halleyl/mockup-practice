@@ -7,7 +7,7 @@ body {
 .content-wrapper {
   /*  set background color for main content, center content on page */
   background-color: white;
-  width: 80%;
+  width: 900px;
   margin: auto;
 }
 
@@ -38,7 +38,7 @@ header h1 {
   background-color: hsl(262, 42%, 49%);
   float: left;
   border-right: .3rem solid hsl(262, 49%, 38%);
-  padding: .5rem 3rem;
+  padding: .5rem 2.6rem;
   color: white;
   
 }
@@ -67,7 +67,7 @@ aside {
 
 aside ul {
   /*  set padding for full ul */
-  padding: 3rem 1rem 8.2rem;
+  padding: 6rem 1rem 8.2rem;
 }
 
 aside li {
@@ -98,7 +98,7 @@ h2 {
   /* Center the figure with margin: auto */
   margin-left: 10%;
   margin-right: 10%;
-  padding: 3rem 10% 3rem;
+  padding: 6rem 10% 4.3rem;
 }
 
 img.main-img {
