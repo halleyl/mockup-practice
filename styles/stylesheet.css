@@ -93,13 +93,13 @@ aside a {
 }
 
 img.main-img {
-  padding: 1rem;
-  width: 400px;
+  padding: 5%;
+  width: 80%;
 
 }
 
 figcaption {
-  width: 450px;
+  width: 90%;
   font-size: .9rem;
   text-align: center;
   
