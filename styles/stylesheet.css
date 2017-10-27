@@ -111,10 +111,11 @@ footer {
   clear: both;
   background-color: white;
   margin: auto;
+  width: 260px;
   padding: 1rem 2rem;
 }
 
 .icon {
   width: 35px;
-  margin: 0 1rem;
+  padding: 0 1.5rem;
 }
