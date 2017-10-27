@@ -12,6 +12,7 @@ body {
 }
 
 header {
+  /*  Set header to relative so that nav can be 100% of header */
   position: relative;
 }
 
@@ -25,7 +26,7 @@ header h1 {
 }
 
 .main-nav {
-  /* Remove bullets */
+  /* Remove bullets, set nav width to 100% of header */
   background-color: hsl(262, 42%, 49%);
   list-style: none;
   position: absolute;
@@ -43,6 +44,7 @@ header h1 {
 }
 
 .main-nav li:last-of-type {
+  /*  Remove right border from last list item */
   border: 0px;
 }
 
@@ -55,7 +57,7 @@ header h1 {
 }
 
 aside {
-  /*  clear the float, float it left, background color */
+  /*  clear the nav float, float the aside left, set width, add background color */
   clear: both;
   float: left;
   width: 23%;
@@ -64,9 +66,8 @@ aside {
 }
 
 aside ul {
-  /*  clear both, set padding for full ul */
+  /*  set padding for full ul */
   padding: 3rem 1rem 8.2rem;
-  clear: both;
 }
 
 aside li {
@@ -82,6 +83,9 @@ aside a {
   font-weight: bold;
 }
 
+h2 {
+  font-size: 0;
+}
 .main-article {
   /*  change background color, float left */
   float: left;
