@@ -11,6 +11,10 @@ body {
   margin: auto;
 }
 
+header {
+  position: relative;
+}
+
 header h1 {
   /*  add color, make bigger, center, add padding */
   color: hsl(269, 39%, 49%);
@@ -24,7 +28,8 @@ header h1 {
   /* Remove bullets */
   background-color: hsl(262, 42%, 49%);
   list-style: none;
-
+  position: absolute;
+  width: 100%;
 }
 
 .main-nav li {
