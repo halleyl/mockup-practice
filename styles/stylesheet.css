@@ -12,18 +12,19 @@ body {
 }
 
 header h1 {
-  /*  Make bigger, color */
-  color: hsl(262, 42%, 49%);
+  /*  add color, make bigger, center, add padding */
+  color: hsl(269, 39%, 49%);
   font-size: 2.5rem;
   text-align: center;
-  padding: .5rem;
+  padding: 1.5rem .5rem .5rem;
   
 }
 
 .main-nav {
   /* Remove bullets */
+  background-color: hsl(262, 42%, 49%);
   list-style: none;
-
+  width: 100%;
 }
 
 .main-nav li {
@@ -32,8 +33,13 @@ header h1 {
   float: left;
   margin: auto;
   border-right: .3rem solid hsl(262, 49%, 38%);
-  padding: .5rem 2rem;
+  padding: .5rem 3rem;
+
   color: white;
+}
+
+.main-nav li:last-of-type {
+  border: 0px;
 }
 
 .main-nav a {
@@ -41,12 +47,14 @@ header h1 {
   color: white;
   text-decoration: none;
   font-weight: bold;
+
 }
 
 aside {
   /*  clear the float, float it left, background color */
   clear: both;
   float: left;
+  width: 23%;
   background-color: hsl(264, 16%, 75%);
 
 }
@@ -69,17 +77,40 @@ aside a {
   font-weight: bold;
 }
 
-article {
+.main-article {
   /*  change background color, float it? */
+  float: left;
+  width: 77%;
   background-color: hsl(218 ,3%, 90%);
 
 }
 
 .main-fig {
   /* Center the figure with margin: auto */
-  margin: auto;
+  font-size: .9rem;
+
+}
+
+img.main-img {
+  padding: 2rem;
+  width: 350px;
+}
+
+figcaption {
+  padding: 0 2rem 1rem;
+  width: 350px;
 }
 
 footer {
   /*  images float left and centered on the page */
+  clear: both;
+  background-color: white;
+  margin: auto;
+  padding: 1rem 2rem;
+  float: left;
+}
+
+.icon {
+  width: 35px;
+  margin: 0 1rem;
 }
