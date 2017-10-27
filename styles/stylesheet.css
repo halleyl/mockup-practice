@@ -60,7 +60,7 @@ aside {
 
 aside ul {
   /*  clear both, set padding for full ul */
-  padding: 2.5rem 1rem 5rem;
+  padding: 3rem 1rem 5rem;
   clear: both;
 }
 
@@ -89,17 +89,21 @@ aside a {
   /* Center the figure with margin: auto */
   margin-left: 10%;
   margin-right: 10%;
-
+  padding: 3rem 10% 1rem;
 }
 
 img.main-img {
-  padding: 1rem 2rem;
+  padding: 1rem;
+  width: 400px;
+
 }
 
 figcaption {
+
+  width: 450px;
   font-size: .9rem;
   text-align: center;
-  padding: 1rem 2rem;
+  
 }
 
 footer {
