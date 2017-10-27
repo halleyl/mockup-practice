@@ -86,18 +86,15 @@ aside a {
 
 .main-fig {
   /* Center the figure with margin: auto */
-  font-size: .9rem;
+
 
 }
 
 img.main-img {
-  padding: 2rem;
-  width: 350px;
+
 }
 
 figcaption {
-  padding: 0 2rem 1rem;
-  width: 350px;
 }
 
 footer {
