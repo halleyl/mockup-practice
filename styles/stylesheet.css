@@ -1,0 +1,85 @@
+body {
+  /*  Change background color, set global font family */
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-wrapper {
+  /*  set background color for main content, center content on page */
+  background-color: white;
+  width: 80%;
+  margin: auto;
+}
+
+header h1 {
+  /*  Make bigger, color */
+  color: hsl(262, 42%, 49%);
+  font-size: 2.5rem;
+  text-align: center;
+  padding: .5rem;
+  
+}
+
+.main-nav {
+  /* Remove bullets */
+  list-style: none;
+
+}
+
+.main-nav li {
+  /* add border between elements, float the elements, center link content, width on links, set font color */
+  background-color: hsl(262, 42%, 49%);
+  float: left;
+  margin: auto;
+  border-right: .3rem solid hsl(262, 49%, 38%);
+  padding: .5rem 2rem;
+  color: white;
+}
+
+.main-nav a {
+  /*  Set link color to white, remove underline, make bold */
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+aside {
+  /*  clear the float, float it left, background color */
+  clear: both;
+  float: left;
+  background-color: hsl(264, 16%, 75%);
+
+}
+
+aside ul {
+  /*  clear both, set padding for full ul */
+  padding: 4rem;
+  clear: both;
+}
+
+aside li {
+  /*  Set padding for individual li's*/
+  padding: 1rem;
+}
+
+aside a {
+  /* set link color to white, remove underline, make bold; */
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+article {
+  /*  change background color, float it? */
+  background-color: hsl(218 ,3%, 90%);
+
+}
+
+.main-fig {
+  /* Center the figure with margin: auto */
+  margin: auto;
+}
+
+footer {
+  /*  images float left and centered on the page */
+}
