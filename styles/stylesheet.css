@@ -24,7 +24,6 @@ header h1 {
   /* Remove bullets */
   background-color: hsl(262, 42%, 49%);
   list-style: none;
-  width: 100%;
 }
 
 .main-nav li {
@@ -107,7 +106,6 @@ footer {
   background-color: white;
   margin: auto;
   padding: 1rem 2rem;
-  float: left;
 }
 
 .icon {
